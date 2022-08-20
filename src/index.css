@@ -64,14 +64,20 @@ h1{
   100%{
     transform: scale(0);
   }
-  
 }
 
-card.active{
+.card.active{
   transform: rotateY(0);
+}
+
+.card.correct{
+  background-color: rgb(147, 255, 255);
+}
+
+.card.wrong{
+  background-color: rgb(255, 107, 107);
 }
 
 .card.card.active img{
   transform: scale(1);
 }
-
