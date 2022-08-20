@@ -1,14 +1,12 @@
-import React from 'react';
-import './App.css';
-import WordCard from './WordCard';
+import Cards from "./Cards"
 
-const word = "Hello";
-function App() {
-  return (
+function App(){
+  return(
     <div>
-      <WordCard value={word}/>
+      <h1>Matching Game</h1>
+      <Cards/>
     </div>
-  );
-}
+  )
+};
 
 export default App;
